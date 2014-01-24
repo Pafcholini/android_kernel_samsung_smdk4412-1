@@ -77,6 +77,7 @@ ifeq ($(CONFIG_TOUCH_BOOST_SWITCH),y)
 obj-$(CONFIG_TOUCHSCREEN_MELFAS)	+= mms_ts.o touchboost_switch.o
 else
 obj-$(CONFIG_TOUCHSCREEN_MELFAS)	+= mms_ts.o
+endif
 obj-$(CONFIG_TOUCHSCREEN_MELFAS_MMS)	+= melfas_mms_ts.o
 obj-$(CONFIG_TOUCHSCREEN_MELFAS_GC)	+= mms_ts_gc.o
 obj-$(CONFIG_TOUCHSCREEN_MMS152)	+= mms152.o mms152_download.o mms152_isc_download.o
@@ -84,6 +85,7 @@ ifeq ($(CONFIG_TOUCH_BOOST_SWITCH),y)
 obj-$(CONFIG_TOUCHSCREEN_MELFAS_NOTE)	+= mms152_ts.o touchboost_switch.o
 else
 obj-$(CONFIG_TOUCHSCREEN_MELFAS_NOTE)	+= mms152_ts.o
+endif
 obj-$(CONFIG_MELFAS_TOUCHKEY)		+= melfas_touchkey.o melfas_download.o
 obj-$(CONFIG_TOUCHSCREEN_ZINITIX)	+= zinitix_touch.o
 obj-$(CONFIG_TOUCHSCREEN_ATMEL_MXT540E)	+= mxt540e.o

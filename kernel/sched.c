@@ -88,7 +88,6 @@
 
 ATOMIC_NOTIFIER_HEAD(migration_notifier_head);
 
-#include <linux/cpufreq_slp.h>
 
 /*
  * Convert user-nice values [ -20 ... 0 ... 19 ]
