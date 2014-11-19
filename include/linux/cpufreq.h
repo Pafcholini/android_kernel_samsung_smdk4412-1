@@ -23,9 +23,6 @@
 #include <asm/div64.h>
 
 #define CPUFREQ_NAME_LEN 16
-#if defined(CONFIG_CPU_EXYNOS4212) || defined(CONFIG_CPU_EXYNOS4412)
-#define CPUFREQ_LEVEL_END		(L21 + 1)
-#endif
 
 
 /*********************************************************************
