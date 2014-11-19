@@ -359,6 +359,7 @@ power_attr(wake_unlock);
 #endif
 
 #ifdef CONFIG_DVFS_LIMIT
+static int cpufreq_max_limit_val = -1;
 static int cpufreq_min_limit_val = -1;
 DEFINE_MUTEX(cpufreq_limit_mutex);
 
